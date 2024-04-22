@@ -71,8 +71,9 @@ if (Suduko(grid, 0, 0)):
   puzzle(grid)
 else:
   print("Solution does not exist:")
-```
+  ```
 #Output
-![Screenshot 2024-04-22 080424](https://github.com/23002776/19AI405ProjExp/assets/145742657/b0ed74bf-85a0-4e8b-8f0a-eee5a15831af)
+![Screenshot 2024-04-22 080424](https://github.com/23002776/19AI405ProjExp/assets/145742657/40a7f4c5-18fe-488e-a88e-0d00e4743205)
+
 #Result:
 Thus, a Sudoku solver using the backtracking algorithm is implemented for the given Sudoku puzzle.
