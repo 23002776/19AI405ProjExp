@@ -11,7 +11,8 @@
 <li>After checking if it is a safe place, we move to the next column and then assign the num in the current (row, col) position of the grid. Later we check for the next possibility with the next column.</li>
 <li>As our assumption was wrong, we discard the assigned num and then we go for the next assumption with a different num value</li>
 </ol>
-## program
+
+# program
 ```
 M = 9
 def puzzle(a):
@@ -71,9 +72,9 @@ if (Suduko(grid, 0, 0)):
   puzzle(grid)
 else:
   print("Solution does not exist:")
-  ```
-#Output
+```
+# Output
 ![Screenshot 2024-04-22 080424](https://github.com/23002776/19AI405ProjExp/assets/145742657/40a7f4c5-18fe-488e-a88e-0d00e4743205)
 
-#Result:
+# Result:
 Thus, a Sudoku solver using the backtracking algorithm is implemented for the given Sudoku puzzle.
